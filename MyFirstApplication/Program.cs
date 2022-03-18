@@ -18,8 +18,25 @@ inside that member.
 // Lesson Examples
 // HouseExample();
 // Lesson1Example();
-Lesson2Example();
+// Lesson2Example();
+Lesson3Example();
 
+
+
+// Lesson 3 Operators and Overflow Checking
+void Lesson3Example()
+{
+    Lesson3 myLesson3 = new Lesson3();
+    // myLesson3.BasicCheckedOperator(14);
+    // myLesson3.BasicCheckedExample2();
+    // myLesson3.BasicUncheckedExample();
+    // myLesson3.BasicMath();
+    // myLesson3.BasicModulus(783);
+    // myLesson3.BasicBooleanLogical(true, false);
+    // myLesson3.BasicCompoundExample(12, 35, 9);
+    // myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncrDecrExample();
+}
 
 
 // Lesson 2 Strings
