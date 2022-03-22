@@ -10,8 +10,8 @@ public class ExerciseTemplate
 {
 
     /*
-     Include comments like this before each exercise number the include the
-    number assignment information. If more than one method is required, this will
+     Include comments like this before each exercise number. The comment should include
+     the exercise number and its information. If more than one method is required, this will
     be written once for that exercise number. The method name will be defined
     in the lab.
      */
