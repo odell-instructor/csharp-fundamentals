@@ -6,6 +6,9 @@
 // The below statement calls a local function
 // single line comment
 
+BottlesOfBeer bottles = new BottlesOfBeer();
+bottles.LetsSing();
+
 
 /*
  Multi-line comment
@@ -24,7 +27,7 @@ inside that member.
 // Lesson5Example();
 // Lesson6Examples();
 // Lesson7Example();
-Lesson8Example();
+// Lesson8Example();
 
 void Lesson8Example()
 {
