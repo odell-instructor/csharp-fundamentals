@@ -31,7 +31,28 @@ inside that member.
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Lesson11Example();
+// Lesson11Example();
+// Lesson12Example();
+CondoExample();
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
 
 
 void Lesson11Example()
