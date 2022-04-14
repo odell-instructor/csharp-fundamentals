@@ -33,7 +33,24 @@ inside that member.
 // HouseUpdated();
 // Lesson11Example();
 // Lesson12Example();
-CondoExample();
+// CondoExample();
+Lesson13Example();
+
+void Lesson13Example()
+{
+    Lesson13Derived myLesson13 = new Lesson13Derived(3);
+    int total1 = myLesson13.ConvertFeetToInches();
+    int total2 = myLesson13.ConvertYardstoFeet();
+
+    Console.WriteLine($"Converting feet to inches {total1}");
+    Console.WriteLine($"Converting yards to feet {total2}");
+
+    // These are from the interface
+    int total3 = myLesson13.ConvertMilesToYards();
+    Console.WriteLine($"Converting Miles to Yards {total3}");
+
+}
+
 
 void CondoExample()
 {
