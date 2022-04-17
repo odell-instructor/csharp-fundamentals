@@ -36,7 +36,16 @@ inside that member.
 // CondoExample();
 // Lesson13Example();
 // Lesson14Example();
-Lesson15Example();
+// Lesson15Example();
+Lesson16Example();
+
+
+void Lesson16Example()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    //myLesson16.MyListExample();
+    myLesson16.MyDictionaryExample();
+}
 
 
 void Lesson15Example()
