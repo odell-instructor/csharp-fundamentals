@@ -37,7 +37,17 @@ inside that member.
 // Lesson13Example();
 // Lesson14Example();
 // Lesson15Example();
-Lesson16Example();
+// Lesson16Example();
+Lesson17Example();
+
+void Lesson17Example()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testHouse = null;
+    //myLesson17.MyThrowExample(testHouse);
+    //myLesson17.MyExceptionExample(testHouse);
+    myLesson17.MyArrayException();
+}
 
 
 void Lesson16Example()
@@ -51,12 +61,12 @@ void Lesson16Example()
 void Lesson15Example()
 {
     Lesson15 myLesson15 = new Lesson15();
-    // myLesson15.EnumExample();
+     myLesson15.EnumExample();
     string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate);
     //Console.WriteLine(flavor);
     // myLesson15.TupleExample();
     (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
-    Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
+   // Console.WriteLine($"Answers are {val1}, {val2}, {val3}");
 }
 
 void Lesson14Example()
