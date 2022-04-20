@@ -4,7 +4,7 @@
  Encapsulation is the process of wrapping data and the code into
 a single unit.
  */
-internal class Lesson10
+public class Lesson10
 {
     private string _firstName;
     private string _address;
